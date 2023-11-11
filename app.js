@@ -5,6 +5,6 @@ const session         = require('express-session');
 
 const PORT = 8080;
 app.listen(PORT, function() {
-    console.log('Server Init');
+    console.log('Server Start');
     console.log('Listening on port: ', PORT);
 });
